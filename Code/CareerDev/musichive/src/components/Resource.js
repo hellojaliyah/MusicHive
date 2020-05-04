@@ -25,10 +25,10 @@ class Resource extends Component {
           <Redirect to={`/view/${resource.id}`} />
          ) : null}
         <h2>{resource.title}</h2>
-        <p>{resource.resourceAuthor}</p>
-        <p>Published on: {resource.datePublished}</p>
-        {resource.videoLength ? (
-          <p>Length: {resource.videoLength} minutes</p>
+        <p>{resource.artist}</p>
+        <p>Released: {resource.releaseYear}</p>
+        {resource.songLength ? (
+          <p>Length: {resource.songLength} minutes</p>
         ) : null}
         {/* conditional ? true code : false code */}
         <p>Comments: {resource.comments.length}</p>

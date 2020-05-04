@@ -1,17 +1,15 @@
 .App {
   text-align: center;
+  background: gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -66,7 +64,14 @@
   flex-direction: row;
   padding: 0 2rem;
   margin-bottom: 1.5rem;
-  background-color: seagreen;
+  background-color: #141414;
+}
+
+.App-logo {
+  pointer-events: none;
+  max-width: 100%;
+  max-height: 100%;
+  float: right;
 }
 
 .title {
@@ -76,7 +81,7 @@
   font-family: cursive;
   font-weight: bold;
   text-shadow: 1px 8px 16px black;
-  color: black;
+  text-emphasis-color: rgb(105, 124, 233);
 }
 
 .navigation {

@@ -5,14 +5,12 @@ import logo from '../logo.png';
 const Navbar = (props) => {
   return (
     <div className="header">
-      {/* <header className="App-header"> */}
     <img className="App-logo" src={logo} alt="the logo"/>
-      {/* </header> */}
       <h1 className="title">
         <Link to="/">Welcome to MusicHive!</Link>
       </h1>
       <div className="navigation">
-        <Link to="/addResource">Add Resource</Link>
+        <Link to="/addResource">Upload your own</Link>
       </div>
     </div>
   );
